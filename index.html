@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klean-Chatbot</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to the improved CSS file -->
+</head>
+<body>
+
+
+
+    
+    <div class="instructions">
+        <h1>Welcome to our Chatbot!</h1>
+        <p>This is a simple chatbot designed to help you with common questions. Please feel free to ask any question related to programming or technology.</p>
+        <p>To start a conversation, simply click on the chatbot icon.</p>
+    </div>
+
+
+
+
+
+    <!-- Chatbot Toggler Button -->
+    <button class="chatbot-toggler">
+        <span>Chat</span> <!-- This can be a text or an icon (e.g., speech bubble) -->
+    </button>
+
+    <!-- Chatbot Window -->
+    <div class="chatbot">
+        <header>
+            <h2>FAQ Assistant</h2>
+            <!-- Close button for the chatbot -->
+            <button class="close-btn">&times;</button>
+        </header>
+
+        <div class="chatbox">
+            <!-- Chat messages will appear here -->
+        </div>
+
+        <!-- Chat Input Area -->
+        <div class="chat-input">
+            <input type="text" placeholder="Type your message..." required />
+            <a href="#" id="send-btn"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="m21.426 11.095-17-8A.999.999 0 0 0 3.03 4.242L4.969 12 3.03 19.758a.998.998 0 0 0 1.396 1.147l17-8a1 1 0 0 0 0-1.81zM5.481 18.197l.839-3.357L12 12 6.32 9.16l-.839-3.357L18.651 12l-13.17 6.197z"></path></svg></a>
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+    "fallback_responses": [
+        "Sorry, I didn’t quite catch that. Could you please rephrase?",
+        "Hmm, I’m not sure what you mean. Can you clarify?",
+        "I’m still learning. Could you ask in a different way?",
+        "I didn’t understand that. Can you try again?",
+        "I’m sorry, but I don’t know the answer to that. Can you reword your question?"
+    ]
+}
